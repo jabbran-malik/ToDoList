@@ -15,5 +15,5 @@ export const updateTodo =(id,payLoad) =>{
 }
 
 export const deleteTodo=(id) =>{
-    return axiosClient.delete(`/todoa/${id}`)
+    return axiosClient.delete(`/todos/${id}`)
 }
