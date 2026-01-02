@@ -1,8 +1,10 @@
-import React from 'react'
-
+// import React from 'react'
+import TodosPage from './pages/TodosPage'
+import './App.css'
 function App() {
   return (
-    <div>App</div>
+    
+   < TodosPage/>
   )
 }
 
